@@ -18,6 +18,6 @@ echo >> "$HOME/.bashrc"
 echo '# Aisle Island' >> "$HOME/.bashrc"
 echo '. .bash_aisle' >> "$HOME/.bashrc"
 
-## Source changes
-. "$HOME/.bashrc"
+## Welcome
+source "$HOME/.bashrc"
 echo 'Successfully set up Aisle Island. Welcome to paradise 🌴'
