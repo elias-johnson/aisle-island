@@ -1,0 +1,18 @@
+## Movement Aliases
+alias l='ls -l'
+alias ll='ls -la'
+alias lt='ls -lt'
+alias llt='ls -lat'
+alias lb='ls -l ..'
+
+alias b='cd ..'
+
+alias c='clear'
+alias cl='clear; ls -l'
+alias cll='clear; ls -la'
+
+## Quick Directories
+alias docs='cd $HOME/docs'
+alias repos='cd $HOME/repos'
+alias sandbox='cd $HOME/sandbox'
+alias scripts='cd $HOME/scripts'
