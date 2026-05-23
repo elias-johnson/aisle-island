@@ -18,6 +18,9 @@ echo >> "$HOME/.bashrc"
 echo '# Aisle Island' >> "$HOME/.bashrc"
 echo '. .bash_aisle' >> "$HOME/.bashrc"
 
+## Update PATH to include scripts
+echo 'export PATH=$PATH:$HOME/scripts' >> "$HOME/.bashrc"
+
 ## Welcome
 source "$HOME/.bashrc"
 echo 'Successfully set up Aisle Island. Welcome to paradise 🌴'
